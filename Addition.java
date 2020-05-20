@@ -6,4 +6,7 @@ public class Addition
         Afterwards, create a case in the switch statement in Main.java 
         and call your function.
     */
+	public static void add(int a,int b){
+		System.out.println("Adding " + a + " and " + b + " gives " (a+b)); 
+	}
 }
