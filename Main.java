@@ -19,6 +19,9 @@ public class Main
         int operator2 = scanner.nextInt();
 
         switch (option) {
+            case 2:
+              Subtraction.Subtract(operator1, operator2);
+              break;
             case 3: 
                 Multiplication.multiplication(operator1,operator2); 
                 break; 
