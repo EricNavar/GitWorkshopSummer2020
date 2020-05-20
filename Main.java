@@ -19,7 +19,9 @@ public class Main
         int operator2 = scanner.nextInt();
 
         switch (option) {
-	    //put your case below this comment
+            case 3: 
+                Multiplication.multiplication(operator1,operator2); 
+                break; 
         }
     }
 }
