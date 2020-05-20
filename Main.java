@@ -23,6 +23,10 @@ public class Main
 			Division.calculate(operator1, operator2);
 			break;
 	    //put your case below this comment
+        case 2:
+        Subtraction.Subtract(operator1, operator2);
+        break;
+        
         }
     }
 }
