@@ -19,6 +19,9 @@ public class Main
         int operator2 = scanner.nextInt();
 
         switch (option) {
+		case 4:
+			Division.calculate(operator1, operator2);
+			break;
 	    //put your case below this comment
         }
     }
