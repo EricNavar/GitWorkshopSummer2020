@@ -20,6 +20,9 @@ public class Main
 
         switch (option) {
 	    //put your case below this comment
+		case 1:
+			Addition.add(operator1,operator2);
+		break;
         }
     }
 }
