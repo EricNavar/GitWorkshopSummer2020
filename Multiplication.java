@@ -6,4 +6,8 @@ public class Multiplication
         Afterwards, create a case in the switch statement in Main.java
         and call your function.
     */
+    public static void multiplication(int operator1, int operator2){
+        int result = operator1 * operator2; 
+        System.out.println(operator1 + "*" + operator2 + "=" + result); 
+    }
 }
