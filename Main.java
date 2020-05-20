@@ -8,6 +8,7 @@ public class Main
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
+        System.out.println("5. Exponent");
         System.out.print("Select an option: ");
 
         Scanner scanner = new Scanner(System.in);
@@ -20,6 +21,9 @@ public class Main
 
         switch (option) {
 	    //put your case below this comment
+            case 5:
+                Exponent.exponent(operator1, operator2);
+                break;
         }
     }
 }
