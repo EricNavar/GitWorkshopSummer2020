@@ -22,6 +22,9 @@ public class Main
             case 3: 
                 Multiplication.multiplication(operator1,operator2); 
                 break; 
+            case 4:
+              Division.calculate(operator1, operator2);
+              break;
         }
     }
 }
