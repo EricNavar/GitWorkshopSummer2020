@@ -6,4 +6,9 @@ public class Division
         Afterwards, create a case in the switch statement in Main.java
         and call your function.
     */
+
+	public static void calculate(double x, double y) {
+		double result = x / y;
+		System.out.println(x + " / " + y + " = " + result);
+	}
 }
